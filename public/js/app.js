@@ -28,8 +28,8 @@ weatherForm.addEventListener('submit', (event) => {
                 forecastData = {...data.forecast}
                 
                 errMsg.textContent = ''
-                message1.textContent = `Location is ${data.place}.`
-                message2.textContent = `It is ${forecastData.weather_descriptions[0]} outsode. Temperature is ${forecastData.temperature}°C and it feels like ${forecastData.feelslike}°C. ${forecastData.precip}% cance of rain today.`
+                message1.textContent = `Searched for ${data.place}.`
+                message2.textContent = `It is ${forecastData.weather_descriptions[0]} outside. Temperature is ${forecastData.temperature}°C and it feels like ${forecastData.feelslike}°C. ${forecastData.precip}% cance of rain today.`
             }
 
         })
