@@ -37,11 +37,6 @@ header a {
     text-decoration: none;
 }
 
-.text-error {
-    color: red;
-    font-weight: lighter;
-}
-
 .portrait {
     width: 250px;
 }
@@ -57,4 +52,9 @@ button {
     background: #888888;
     color: white;
     padding: 8px;
+}
+
+.text-error {
+    color: red;
+    font-size: small;
 }
