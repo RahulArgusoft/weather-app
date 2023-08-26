@@ -1,4 +1,3 @@
-console.log('This is client side app.js');
 
 const weatherForm = document.querySelector('form')
 const search = document.querySelector('input')
@@ -31,7 +30,6 @@ weatherForm.addEventListener('submit', (event) => {
                 errMsg.textContent = ''
                 message1.textContent = `Location is ${data.place}.`
                 message2.textContent = `It is ${forecastData.weather_descriptions[0]} outsode. Temperature is ${forecastData.temperature}°C and it feels like ${forecastData.feelslike}°C. ${forecastData.precip}% cance of rain today.`
-                console.log(forecastData);
             }
 
         })
